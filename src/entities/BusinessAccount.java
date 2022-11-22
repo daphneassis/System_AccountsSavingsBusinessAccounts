@@ -22,7 +22,7 @@ public class BusinessAccount extends Account {
 		}
 	}
 	@Override
-	public void withraw(Double amount) {
+	public final void withraw(Double amount) {
 		super.withraw(amount);
 		balance-=2.0;
 	}
